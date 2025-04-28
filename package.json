@@ -1,0 +1,12 @@
+{
+  "name": "website3.0",
+  "version": "1.0.0",
+  "scripts": {
+    "frontend": "cd vite-project && npm run dev",
+    "backend": "cd backend && go run main.go",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
